@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+.bg {
+    background: linear-gradient(to right, rgb(144, 0, 173),rgb(221, 0, 173),rgb(170, 15, 149));
+}
+.clock {
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.bg_tran {
+    background: rgba(253, 253, 253, 0.24);
+}
